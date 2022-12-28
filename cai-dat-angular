@@ -1,6 +1,16 @@
 # Tham khảo cài đặt chính ở trang:
   https://angular.io/guide/setup-local
+# Tham khảo thêm ở trang:
+  https://github.com/angularvietnam/100-days-of-angular/blob/master/Day001-Installation.md
 # Cài Visual Studio Code:
   https://code.visualstudio.com/download
-# Chú ý thiết lập lập policy để cài đặt, nâng cấp các gói...:
-  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
+  
+# Chú ý thiết lập lập policy để cài đặt, nâng cấp các gói (Lệnh có trong hướng dẫn cài đặt của angular):
+  (Chi tiết Chính sách của lệnh xem trong: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.3)
+  Bật Windows PowerShell với quyền Administrator và chạy lệnh sau:
+    Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned 
+      Đọc kỹ thông báo hiển thị sau khi thực hiện lệnh và làm theo hướng dẫn. Đảm bảo rằng bạn hiểu ý nghĩa của việc thiết lập chính sách thực thi
+    Kiểm tra thực thi của lệnh trên: 
+  
+  
+  
