@@ -1,0 +1,6 @@
+# Tham khảo cài đặt chính ở trang:
+  https://angular.io/guide/setup-local
+# Cài Visual Studio Code:
+  https://code.visualstudio.com/download
+# Chú ý thiết lập lập policy để cài đặt, nâng cấp các gói...:
+  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
